@@ -1,0 +1,85 @@
+/* Main */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@400;700&family=Macondo&family=Merriweather:ital@0;1&family=Space+Mono:ital,wght@0,400;1,700&family=Work+Sans:wght@400;500;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Amatic SC', cursive;
+}
+/* Header */
+.header {
+  width: 100%;
+  height: 6.5rem;
+  background-color: rgb(0, 0, 0);
+}
+.title {
+  color: rgb(197, 168, 5);
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 1.4rem;
+  font-size: 1.5rem;
+}
+/* Container */
+.container {
+  background-color: rgb(209, 209, 209);
+  font-size: 2rem;
+  width: 100%;
+  height: 80rem;
+}
+.ctb {
+  border: 6px solid rgb(255, 255, 255);
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.ctr {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 2rem;
+  column-gap: 1rem;
+  row-gap: 10px;
+  padding: 0.3rem;
+}
+@media (max-width: 600px) {
+  .ctr {
+    display: block;
+  }
+}
+label {
+  text-align: right;
+}
+input {
+  font-size: 2rem;
+  border: 1px solid rgb(197, 168, 5);
+  border-radius: 10px;
+  width: 14rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: rgb(230, 187, 0);
+}
+a:active {
+  color: rgb(245, 229, 6);
+}
+/* Footer */
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(197, 168, 5);
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+#refresh {
+  color: black;
+}
